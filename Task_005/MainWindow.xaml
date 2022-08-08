@@ -1,0 +1,14 @@
+﻿<Window x:Class="Task_005.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task_005"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="cmdButton_Start" Content="START" HorizontalAlignment="Left" Margin="284,217,0,0" VerticalAlignment="Top" Height="74" Width="196" Click="cmdButton_Start_Click"/>
+        <TextBox x:Name="TextOutput" HorizontalAlignment="Left" Margin="284,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" Height="55" Text="Start to run the process ... "/>
+
+    </Grid>
+</Window>
